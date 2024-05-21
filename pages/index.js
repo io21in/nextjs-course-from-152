@@ -1,7 +1,7 @@
 import {getFeaturedEvents} from '../dummy-data';
 import EventList from '../components/events/event-list';
 
-function Home() {
+function HomePage() {
     const featuredEvents = getFeaturedEvents();
 
   return (
@@ -11,5 +11,5 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
 
