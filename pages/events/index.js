@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { useRouter } from "next/navigation"; //after nextJS version13. untill version12 is "next/router"
+import { useRouter } from "next/router"; //after nextJS version13. untill version12 is "next/router"
 import { getAllEvents } from "../../dummy-data";
 import EventList from "../../components/events/event-list";
 import EventsSearch from "../../components/events/events-search";
